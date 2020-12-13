@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>IMenuRequest.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+.s0 { color: rgb(0,0,128); font-weight: bold; }
+.s1 { color: rgb(0,0,0); }
+</style>
+</head>
+<BODY BGCOLOR="#ffffff">
+<TABLE CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<TR><TD><CENTER>
+<FONT FACE="Arial, Helvetica" COLOR="#000000">
+IMenuRequest.java</FONT>
+</center></TD></TR></TABLE>
+<pre>
+<a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">com.simplesite.mdhalim.jishu.Remote; 
+<a name="l2"><span class="ln">2    </span></a> 
+<a name="l3"><span class="ln">3    </span></a> 
+<a name="l4"><span class="ln">4    </span></a></span><span class="s0">import <a href="../../../../../com/simplesite/mdhalim/jishu/Model/Item.java.html">com.simplesite.mdhalim.jishu.Model.Item</a></span><span class="s1">; 
+<a name="l5"><span class="ln">5    </span></a> 
+<a name="l6"><span class="ln">6    </span></a></span><span class="s0">import </span><span class="s1">java.util.List; 
+<a name="l7"><span class="ln">7    </span></a> 
+<a name="l8"><span class="ln">8    </span></a></span><span class="s0">import </span><span class="s1">retrofit2.Call; 
+<a name="l9"><span class="ln">9    </span></a></span><span class="s0">import </span><span class="s1">retrofit2.http.GET; 
+<a name="l10"><span class="ln">10   </span></a></span><span class="s0">import </span><span class="s1">retrofit2.http.Url; 
+<a name="l11"><span class="ln">11   </span></a> 
+<a name="l12"><span class="ln">12   </span></a></span><span class="s0">public interface </span><span class="s1">IMenuRequest { 
+<a name="l13"><span class="ln">13   </span></a> 
+<a name="l14"><span class="ln">14   </span></a>    @GET 
+<a name="l15"><span class="ln">15   </span></a>    Call&lt;List&lt;Item&gt;&gt; getMenuList(@Url String url); 
+<a name="l16"><span class="ln">16   </span></a>} 
+<a name="l17"><span class="ln">17   </span></a></span></pre>
+</body>
+</html>

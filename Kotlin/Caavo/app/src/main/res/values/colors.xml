@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#111111</color>
+    <color name="colorPrimaryDark">#4fb053</color>
+    <color name="colorAccent">#fbbfb5</color>
+    <color name="Description">#5b6b3c</color>
+    <color name="bgRowBackground">#ea3732</color>
+    <color name="itemName">#000000</color>
+</resources>
